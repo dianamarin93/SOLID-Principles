@@ -12,18 +12,14 @@ namespace Liskov_Substitution_Principle
         public int Speed { get; set; }
         public int MaxPassengers { get; set; }
 
-
         public Vehicle(string name, int speed, int maxPassengers)
         {
             Name = name;
             Speed = speed;
             MaxPassengers = maxPassengers;
-            
         }
 
         public override string ToString()
             => $"Name : {Name}, Speed: {Speed}, MaxPassengers: {MaxPassengers}";
-
-      
     }
 }

@@ -24,7 +24,6 @@ namespace Liskov_Substitution_Principle
 
             UnmotorisedVehicle bicycle = new Bicycle("Pegas", 20, 1);
             Console.WriteLine(bicycle);
-            
         }
     }
 }
