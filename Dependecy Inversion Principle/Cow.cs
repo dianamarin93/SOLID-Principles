@@ -17,6 +17,5 @@ namespace Dependecy_Inversion_Principle
 
         public override string MakeSound()
             => speakBehaviour.MakeSound();
-
     }
 }
